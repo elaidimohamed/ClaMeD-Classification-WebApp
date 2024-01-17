@@ -1,0 +1,239 @@
+
+		<!doctype html>
+		{% load static %}
+		<html lang="en">
+		<head>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<meta name="author" content="Untree.co">
+			<link rel="shortcut icon" href="{% static 'assets/redacteur.png' %}">
+			
+			<meta name="description" content="" />
+			<meta name="keywords" content="bootstrap, bootstrap5" />
+
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+			<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+
+			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+
+			<link rel="stylesheet" href="{% static 'css/tiny-slider.css' %}">
+			<link rel="stylesheet" href="{% static 'css/aos.css' %}">
+			<link rel="stylesheet" href="{% static 'css/glightbox.min.css' %}">
+			<link rel="stylesheet" href="{% static 'css/style.css' %}">
+		
+			<link rel="stylesheet" href="{% static 'css/flatpickr.min.css' %}">
+
+
+			<title>ClaMeD</title>
+		</head>
+		<style>
+			.icon-container {
+				text-align: center;
+				margin-top: 10px;
+				margin-right: -100px;
+			}
+
+			.icon {
+				width: 50px; 
+				height: auto;
+			}
+		</style>
+		<body>
+
+			<div class="site-mobile-menu site-navbar-target">
+				<div class="site-mobile-menu-header">
+					<div class="site-mobile-menu-close">
+						<span class="icofont-close js-menu-toggle"></span>
+					</div>
+				</div>
+				<div class="site-mobile-menu-body"></div>
+			</div>
+
+			<nav class="site-nav">
+				<div class="container">
+					<div class="menu-bg-wrap">
+						<div class="site-navigation">
+							<div class="row g-0 align-items-center">
+								<div class="col-2">
+									<a href="home.html" class="logo m-0 float-start">ClaMeD<span class="text-primary">.</span></a>
+								</div>
+								<div class="col-8 text-center">
+									Empowering you with intelligent text analysis for meaningful insights
+								</div>
+								<div class="col-2 text-end">
+									<a href="home.html">
+										<div class="icon-container">
+											<img src="{% static 'assets/redacteur.png' %}" alt="Votre icône" class="icon">
+										</div>
+									</a>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+
+				<!-- welcome -->
+				<div class="site-cover site-cover-sm same-height overlay single-page"  >
+					<div class="container">
+						<div class="row same-height justify-content-center">
+							<div class="col-md-10">
+								<div class="post-entry text-center">
+									<h1>Welcome to Text Classifier</h1>  
+								</div> 
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<!-- let's started ....... -->
+				<section class="section">
+					<div class="container">
+
+						<div class="d-flex justify-content-center">
+							<a href="{{ '/home'}}">
+								<button type="button" class="btn btn-primary btn-lg">Classify Text</button>
+							</a>
+						</div>
+						
+						
+					</div>
+				</section>
+				<div style="text-align: center;">
+					<p>Thank you for choosing Text Classifier. Explore the power of intelligent text analysis with us!</p>
+				</div>
+				<!-- about us -->
+				<div class="site-cover site-cover-sm same-height overlay single-page"  >
+					<div class="container">
+						<div class="row same-height justify-content-center">
+							<div class="col-md-10">
+								<div class="post-entry text-center">
+								<h1> About Us</h1> 
+								</div> 
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="section sec-halfs py-0">
+					<div class="container">
+						<div class="half-content d-lg-flex align-items-stretch">
+							<div class="img" style="background-image: url('{% static 'assets/ensa.png' %}')" data-aos="fade-in" data-aos-delay="100">
+								
+							</div>
+							<div class="text">
+								<h2 class="heading text-primary mb-3">ENSA: Safi National School of Applied Sciences</h2>
+								<p class="mb-4">The National School of Applied Sciences of Safi, is a public engineering school located in Safi, it is part of the network of National Schools of Applied Sciences distributed throughout the national territory at the level of the country's major university cities.</p>
+								<p><a href="https://ensas.uca.ma/" target="_blank" class="btn btn-outline-primary py-2">Read more</a></p>
+							</div>
+						</div>
+
+						<div class="half-content d-lg-flex align-items-stretch">
+							<div class="img order-md-2" style="background-image: url('{% static "assets/caddy.png" %}')" data-aos="fade-in">
+								
+							</div>
+							<div class="text">
+								<h2 class="heading text-primary mb-3">More than 123,983 students</h2>
+								<p class="mb-4">fter only 45 years of existence, Cadi Ayyad University is the beating heart of a growing territory. With fifteen establishments housing more than 120,000 students and offering a variety of disciplines in all fields of knowledge, UCA is deeply anchored in its ecosystem. It constitutes both a flagship and a locomotive of the four emblematic cities of the Marrakech-Safi Region.</p>
+								<p><a href="https://www.uca.ma/fr" target="_blank" class="btn btn-outline-primary py-2">Read more</a></p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			<div class="section sec-features">
+				<div class="container">
+					<div class="row g-5">
+						<div class="col-12 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+								<div  class="feature d-flex">
+									<div >
+										<h3>Objectives</h3>
+										<p>Our primary objectives revolve around providing users with a user-friendly and effective platform for text classification. We aim to continually enhance our algorithms, expand the range of supported text types, and ensure a seamless and insightful user experience.</p>
+									</div>
+								</div>
+							
+						</div>
+						<div class="col-12 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+							<div class="feature d-flex">
+								<div>
+									<h3>Results</h3>
+									<p>Upon submission, our system generates detailed results, presenting a comprehensive breakdown of the classified background. This enables users to better understand the underlying themes and nuances within the provided text.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+							<div class="feature d-flex">
+								<div>
+									<h3>Conclusions</h3>
+									<p>Text Classifier goes beyond mere classification; it offers meaningful conclusions derived from the analysis. Users can gain valuable perspectives and draw informed insights based on the outcomes provided by our intelligent system.</p>
+								</div>
+							</div>                
+						</div>
+					</div>
+				</div>
+			</div>
+
+			
+			<div class="section">
+				<div class="container">
+					
+					<div class="row mb-5">
+						<div class="col-lg-5 mx-auto text-center" data-aos="fade-up">
+							<h2 class="heading text-primary">Our Team</h2>
+							<p>Meet our dynamic team at ClaMeD – a diverse and passionate group of professionals dedicated to advancing text analysis. We are committed to pushing boundaries and delivering innovative, customized solutions to meet your specific needs.</p>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-lg-4 mb-4 text-center" data-aos="fade-up" data-aos-delay="0">
+							<img src="{% static 'assets/me.png' %}" alt="Image" class="img-fluid w-50 rounded-circle mb-3">
+							<h5 class="text-black">Abdelhamid Chebel</h5>
+							<a href="https://www.instagram.com/abdelhamid_chebel/" target="_blank"><i class="bi bi-instagram"></i></a>
+							<a href="https://www.linkedin.com/in/abdelhamidchebel-3429451a7/" target="_blank"> <i class="bi bi-linkedin"></i></i></a>
+							
+						</div>
+						<div class="col-lg-4 mb-4 text-center" data-aos="fade-up" data-aos-delay="100">
+							<img src="{% static 'assets/moh.jpeg' %}" alt="Image" class="img-fluid w-50 rounded-circle mb-3">
+							<h5 class="text-black">Mohamed El aidi</h5>
+							<a href="https://www.instagram.com/simoelaidi7/" target="_blank" ><i class="bi bi-instagram"></i></a>
+							<a href="https://www.linkedin.com/in/el-aidi-mohamed-a62b33229/" target="_blank" > <i class="bi bi-linkedin"></i></i></a>
+						
+						</div>
+						<div class="col-lg-4 mb-4 text-center" data-aos="fade-up" data-aos-delay="200">
+							<img src="{% static 'assets/fati.jpeg' %}" alt="Image" class="img-fluid w-50 rounded-circle mb-3">
+							<h5 class="text-black">Fatima zahra El amrani</h5>
+							<a href="https://www.instagram.com/froo__ta/" target="_blank"><i class="bi bi-instagram"></i></a>
+							<a href="https://www.linkedin.com/in/fatima-zahra-el-amrani-937136224/" target="_blank"> <i class="bi bi-linkedin"></i></i></a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<div style="text-align: center;">
+				<p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> <br> By IDIA &hearts;</p>
+			</div>
+			
+
+
+			<script src="public/js/bootstrap.bundle.min.js"></script>
+			<script src="public/js/tiny-slider.js"></script>
+
+			<script src="public/js/flatpickr.min.js"></script>
+
+
+			<script src="{% static 'js/aos.js' %}"></script>
+			<script src="{% static 'js/glightbox.min.js' %}"></script>
+			<script src="{% static 'js/navbar.js' %}"></script>
+			<script src="{% static 'js/counter.js' %}"></script>
+			<script src="{% static 'js/custom.js' %}"></script>
+
+			
+		</body>
+		</html>
